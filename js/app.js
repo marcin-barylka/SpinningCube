@@ -119,7 +119,7 @@ Cube.prototype.draw = function() {
 	this.drawLine(this.vertices[5], this.vertices[7]);
 }
 
-var observer = new Point(0, 0, -150000);
+var observer = new Point(0, 0, -600);
 // var spinPoint = new Point(0, 0, 0);
 var angles = [0, 0, 0];
 
