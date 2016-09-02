@@ -1,4 +1,5 @@
 /* Application */
+"use strict";
 
 var Point = function(x, y, z) {
 	this.x = x;
