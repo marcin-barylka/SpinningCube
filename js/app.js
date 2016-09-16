@@ -156,7 +156,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	cube.addVertex(new Point(100, -100, -100));
 
 	var angle = 1;
-	console.log(cube);
 	var interval = setInterval(
 		function() {
 			cube.rotateX(angles[0]);
